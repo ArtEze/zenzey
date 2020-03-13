@@ -120,5 +120,5 @@ Referencias
 * `[1]`: [http://es.wikipedia.org/wiki/Cluster](http://es.wikipedia.org/wiki/Cluster)
 * `[2]`: [http://es.wikipedia.org/wiki/Grafo](http://es.wikipedia.org/wiki/Grafo) 
 
-[3]: /zenzey/static/img/8N.png
-[4]: /static/img/8N-tabla.png
+[3]: https://arteze.github.io/zenzey/static/img/8N.png
+[4]: https://arteze.github.io/zenzey/static/img/8N-tabla.png
