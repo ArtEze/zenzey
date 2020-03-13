@@ -3,20 +3,19 @@ layout: entry
 title: Análisis del 8N en Twitter
 ---
 
-[<img src="/static/img/8N.png" />](/reports/8N/)
+[<img src="/zenzey/static/img/8N.png" />](/reports/8N/)
 
-#Contexto
+# Contexto
 
 El 8 de Noviembre (8N) se organizo en Argentina la primera movilización de gran envergadura en oposición al gobierno democrático de Cristina Fernandez de Kirchner. La convocatoria se dio principalmente a través de las redes sociales (Twitter y Facebook) y sus repercusiones en los medios tradicionales (TV, diarios, radios, etc.). A través del uso del Hashtag [#8N](https://twitter.com/#!/search?q=%238N) (un meme) se aglutinó a los usuarios en torno a las consignas que libremente se plantearon en torno a la manifestación. Dado el carácter abierto que mantuvo, la heterogeneidad de los reclamos y pedidos se constituyó en uno de los puntos más criticados por los usuarios afines al gobierno de CFK.
 
 El contexto político actual de Argentina se encausa desde 2008 hacia una marcada polarización ideológica en torno al gobierno kirchnerista que se expresa en posiciones antagónicas sobre la forma de concebir la política nacional e internacional, el manejo de la economía y de la asistencia del estado hacia los sectores vulnerables.  Esta polarización se ve reflejada en el ecosistema de Twitter, donde en torno de los principales antagonistas políticos y mediáticos pudimos detectar [comunidades](http://es.wikipedia.org/wiki/Cluster) `[1]` de afinidad ideológica o política, y cuyas principales figuras fueron el blanco de la mayoría de las menciones de parte de los usuarios que activamente impulsaron la movilización, además de ser la fuente principal de los Retweets más populares.
 
-
-#Grafos
+# Grafos
 
 A través de Zenzey, un producto desarrollado en [Grupo42](http://www.grupo42.com/), monitoreamos todas las menciones referidas a las Keywords "8N", "Cacerolazo" y "#8N" entre el 7 y el 10 de Noviembre obteniendo un total de 154 mil Tweets sobre el tema. Dado el elevado volumen, **el análisis se realizó sobre una muestra de 1055 usuarios que registraron diez o más menciones** entre las realizadas a otros usuarios y las recibidas, esto nos permitió acceder únicamente a los usuarios más influyentes que participaron del evento. A partir de esta muestra generamos dos [grafos](http://es.wikipedia.org/wiki/Grafo) `[2]` sociales en los que se muestran las relaciones entre los usuarios.
 
-##Grafo Menciones
+## Grafo Menciones
 
 [Éste grafo](/reports/8N/2.html) está compuesto por 3 grandes clusters. 
 
@@ -26,7 +25,7 @@ El cluster 1 referencia a las cuentas con mayor actividad durante el evento. Las
 
 El cluster 2 está compuesto por cuentas que manifestaron un comportamiento estándar durante el evento.
 
-##Grafo Clustering
+## Grafo Clustering
 
 [Este grafo](/reports/8N/) utiliza algoritmos de clustering (utilizando el método Louvain) para la separación de los usuarios en los distintos grupos (7 en total). El resultado son agrupaciones que demuestran interesantes coincidencias ideológicas y políticas, con clusters que representan a diversos grupos de la contienda, por ejemplo:
 
@@ -84,7 +83,7 @@ El cluster 2 está compuesto por cuentas que manifestaron un comportamiento est�
     * [@SoyMatreros1928](http://twitter.com/SoyMatreros1928) 
     * [@SoledadRojasT](http://twitter.com/SoledadRojasT)
 
-#Conclusiones
+# Conclusiones
 
 Una de las principales conclusiones que podemos extraer de este análisis es que nos encontramos frente a una protesta genuina que contó con un fuerte impulso del trabajo colectivo de muchos usuarios comunes de Twitter organizados en torno al "meme" [#8N](https://twitter.com/#!/search?q=%238N). Dejando de lado los casos puntuales en los que algunos usuarios mostraron comportamientos abusivos o que jugaron en el límite del spam, la gran mayoría de las cuentas era de usuarios reales y que actuaron de buena fe en lo que consideraron una consigna válida y digna de difusión.
 
@@ -95,13 +94,13 @@ Finalmente, es de destacar la utilización de bots de comportamiento abusivo par
 En futuros trabajos, desarrollaremos otras aristas de este conflicto y de otras coyunturas políticas y económicas de amplio impacto en Twitter.
 
 
-#Cómo navegar la información
+# Cómo navegar la información
 
 Cada usuario se encuentra representado en el grafo por un pelota cuyo tamaño determina la cantidad total de Tweets contabilizados (entre menciones recibidas y enviados enviados) y cuyo color remite al clúster al que pertenece. Clickear sobre la pelota nos permite visualizar las conexiones (representadas por las lineas que unen dos pelotas) que ese usuario posee con otros, y a su vez ver los Tweets que demuestran esas relaciones.
 
 `[Para una mejor visualización, abrir los grafos con Chrome]`
 
-##Grafo
+## Grafo
 
 * **Search:** permite buscar cuentas de twitter específicas dentro del grafo.
 * **Zoom:** es posible usar el scroll o los botones de arriba a la derecha (Zoom in y Zoom out)
@@ -109,7 +108,7 @@ Movimiento: manteniendo el click presionado sobre un espacio en blanco y moviend
 * **Barra de Interacciones:** desplazando hacia cualquiera de los lados es posible filtrar las cuentas que se muestran en el grafo en base a la cantidad de interacciones recibidas. Si queremos ver las cuentas con mayor cantidad de menciones o mensajes enviados, corremos el selector de la izquierda hacia la derecha, filtrando las cuentas con menor cantidad de interacciones.
 * **Clusters:** arriba a la izquierda se ubican los distintos clusters (grupos) en los que se agrupan los usuarios. Al cargar el grafo se ven todos los clusters en simultáneo. Clickeando sobre cualquiera de ellos la visualización se enfoca solamente sobre los nodos que le pertenecen, y al volver a clickearlo vuelven a mostrarse todos a la vez. Se puede armar cualquier combinación de clusters en la visualización, simplemente hay que clickear en los que queramos ver.
 
-##Tabla
+## Tabla
 
 En simultáneo al grafo, es posible analizar la información a través de la tabla incluida debajo del grafo: todas las columnas se pueden ordenar de mayor a menor o alfabéticamente, y al hacer click sobre el nombre de un usuario se resaltarán en el grafo sus conexiones con otros y los tweets que explican esa relación (idéntico a clickear sobre la pelota en el grafo).
 
