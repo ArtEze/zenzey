@@ -18,6 +18,7 @@ El contexto político actual de Argentina se encausa desde 2008 hacia una marcad
 A través de Zenzey, un producto desarrollado en [Grupo42](http://www.grupo42.com/), monitoreamos todas las menciones referidas a las Keywords "8N", "Cacerolazo" y "#8N" entre el 7 y el 10 de Noviembre obteniendo un total de 154 mil Tweets sobre el tema. Dado el elevado volumen, **el análisis se realizó sobre una muestra de 1055 usuarios que registraron diez o más menciones** entre las realizadas a otros usuarios y las recibidas, esto nos permitió acceder únicamente a los usuarios más influyentes que participaron del evento. A partir de esta muestra generamos dos [grafos](http://es.wikipedia.org/wiki/Grafo) `[2]` sociales en los que se muestran las relaciones entre los usuarios.
 
 ## Grafo Menciones
+[Grafo Clustering][Grafo Clustering]
 
 [Éste grafo](/reports/8N/2.html) está compuesto por 3 grandes clusters. 
 
@@ -29,7 +30,7 @@ El cluster 2 está compuesto por cuentas que manifestaron un comportamiento est�
 
 ## Grafo Clustering
 
-[Este grafo](/reports/8N/) utiliza algoritmos de clustering (utilizando el método Louvain) para la separación de los usuarios en los distintos grupos (7 en total). El resultado son agrupaciones que demuestran interesantes coincidencias ideológicas y políticas, con clusters que representan a diversos grupos de la contienda, por ejemplo:
+[Este grafo][Grafo Clustering] utiliza algoritmos de clustering (utilizando el método Louvain) para la separación de los usuarios en los distintos grupos (7 en total). El resultado son agrupaciones que demuestran interesantes coincidencias ideológicas y políticas, con clusters que representan a diversos grupos de la contienda, por ejemplo:
 
 * **Verde**: cuentas ligadas al oficialismo ([@678Oficial](http://twitter.com/678Oficial), [@cyngarciaradio](http://twitter.com/cyngarciaradio), [@ddd_ok](http://twitter.com/ddd_ok), [@tognetti_daniel](http://twitter.com/tognetti_daniel) y, curiosamente, [@telefenoticias](http://twitter.com/telefenoticias)).
 
@@ -118,9 +119,12 @@ En simultáneo al grafo, es posible analizar la información a través de la tab
 **Grupo42 Lab**
 
 Links
-* [Grafo Menciones](/reports/8N/2.html)
-* [Grafo Clustering](/reports/8N/)
+* [Grafo Clustering][Grafo Clustering]
+* [Grafo Menciones][Grafo Menciones]
 
 Referencias
 * `[1]`: [http://es.wikipedia.org/wiki/Cluster](http://es.wikipedia.org/wiki/Cluster)
 * `[2]`: [http://es.wikipedia.org/wiki/Grafo](http://es.wikipedia.org/wiki/Grafo) 
+
+[Grafo Clustering]: https://arteze.github.io/zenzey/reports/8N/
+[Grafo Menciones]: https://arteze.github.io/reports/8N/2.html
