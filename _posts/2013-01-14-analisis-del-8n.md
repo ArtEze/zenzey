@@ -3,7 +3,7 @@ layout: entry
 title: Análisis del 8N en Twitter
 ---
 
- <a target="_ blank" href="https://arteze.github.io/zenzey/static/img/8N.png">
+ <a target="_blank" href="https://arteze.github.io/zenzey/static/img/8N.png">
     <img src="https://arteze.github.io/zenzey/static/img/8N.png" />
 </a>
 
@@ -39,7 +39,7 @@ El cluster 2 está compuesto por cuentas que manifestaron un comportamiento est�
 
 * **Verde claro**: usuarios comunes, se ven pocas personalidades o famosos.
 
- <a target="_ blank" href="https://arteze.github.io/zenzey/static/img/8N-tabla.png">
+ <a target="_blank" href="https://arteze.github.io/zenzey/static/img/8N-tabla.png">
     <img src="https://arteze.github.io/zenzey/static/img/8N-tabla.png" />
 </a>
 
