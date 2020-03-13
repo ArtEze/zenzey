@@ -1,4 +1,7 @@
 # zenzey
+
+Este repositorio es un fork de: https://github.com/boo-box/zenzey-research
+
 Zenzey Research Blog - https://arteze.github.io/zenzey/
 
 ## Publicaciones
