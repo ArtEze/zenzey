@@ -2,7 +2,7 @@
 layout: entry
 title: Análisis del 8N en Twitter
 ---
-[![Fórmula pi medio][3]][Grafo Clustering]
+![Grafo Clustering][3]
 
 # Contexto
 
@@ -121,4 +121,4 @@ Referencias
 * `[1]`: [http://es.wikipedia.org/wiki/Cluster](http://es.wikipedia.org/wiki/Cluster)
 * `[2]`: [http://es.wikipedia.org/wiki/Grafo](http://es.wikipedia.org/wiki/Grafo) 
 
-[3]: /static/img/8N.png
+[3]: /zenzey/static/img/8N.png
