@@ -36,9 +36,9 @@ El cluster 2 está compuesto por cuentas que manifestaron un comportamiento est�
 
 * **Verde claro**: usuarios comunes, se ven pocas personalidades o famosos.
 
-<img src="/static/img/8N-tabla.png" />
+![8N tabla][4]
 
-#Análisis de los principales actores
+# Análisis de los principales actores
 
 1.  **Nodos centrales**
     Entre los nodos centrales detectamos a personalidades de la política como Cristina Fernandez de Kirchner, Mauricio Macri y Anibal Fernandez; periodistas como Jorge Lanata y Jorge Rial; y medios de prensa digitales o tradicionales como La Nación, Clarín, Infobae, C5N. Alrededor de estos actores se generó la mayor cantidad de menciones y Retweets, lo que ilustra el carácter político y el fuerte impulso mediático que se dio a la movilización.
@@ -92,7 +92,6 @@ Finalmente, es de destacar la utilización de bots de comportamiento abusivo par
 
 En futuros trabajos, desarrollaremos otras aristas de este conflicto y de otras coyunturas políticas y económicas de amplio impacto en Twitter.
 
-
 # Cómo navegar la información
 
 Cada usuario se encuentra representado en el grafo por un pelota cuyo tamaño determina la cantidad total de Tweets contabilizados (entre menciones recibidas y enviados enviados) y cuyo color remite al clúster al que pertenece. Clickear sobre la pelota nos permite visualizar las conexiones (representadas por las lineas que unen dos pelotas) que ese usuario posee con otros, y a su vez ver los Tweets que demuestran esas relaciones.
@@ -122,3 +121,4 @@ Referencias
 * `[2]`: [http://es.wikipedia.org/wiki/Grafo](http://es.wikipedia.org/wiki/Grafo) 
 
 [3]: /zenzey/static/img/8N.png
+[4]: /static/img/8N-tabla.png
