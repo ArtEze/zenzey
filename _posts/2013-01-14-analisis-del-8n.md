@@ -18,9 +18,8 @@ El contexto político actual de Argentina se encausa desde 2008 hacia una marcad
 A través de Zenzey, un producto desarrollado en [Grupo42](http://www.grupo42.com/), monitoreamos todas las menciones referidas a las Keywords "8N", "Cacerolazo" y "#8N" entre el 7 y el 10 de Noviembre obteniendo un total de 154 mil Tweets sobre el tema. Dado el elevado volumen, **el análisis se realizó sobre una muestra de 1055 usuarios que registraron diez o más menciones** entre las realizadas a otros usuarios y las recibidas, esto nos permitió acceder únicamente a los usuarios más influyentes que participaron del evento. A partir de esta muestra generamos dos [grafos](http://es.wikipedia.org/wiki/Grafo) `[2]` sociales en los que se muestran las relaciones entre los usuarios.
 
 ## Grafo Menciones
-[Grafo Clustering][Grafo Clustering]
 
-[Éste grafo](/reports/8N/2.html) está compuesto por 3 grandes clusters. 
+[Éste grafo][Grafo Menciones] está compuesto por 3 grandes clusters. 
 
 El cluster 0 está compuesto por personas que recibieron muchas mentions. Entre las figuras de este clúster se reconocen principalmente a **Cristina Fernandez de Kirchner** a través de su cuenta oficial [@CFKArgentina](http://twitter.com/CFKArgentina) como el destinatario de la mayor cantidad de mensajes sobre el 8N.  Mauricio Macri ([@mauriciomacri](http://twitter.com/mauriciomacri)), Jorge Lanata ([@Lanataenel13](http://twitter.com/Lanataenel13)), Jorge Rial ([@jorgerial](http://twitter.com/jorgerial)) y Luis D'Elia ([@Luis_Delia](http://twitter.com/Luis_Delia)) completan la lista de personalidades de la política y el periodismo que mayor cantidad de mensajes recibieron. Entre los medios de prensa más mencionados, encontramos a los diarios La Nación ([@lanacioncom](http://twitter.com/lanacioncom)) e Infobae ([@infobae](http://twitter.com/infobae)) y los canales televisivos de noticias Todo Noticias ([@todonoticias](http://twitter.com/todonoticias)) y C5N ([@C5N](http://twitter.com/C5N)).
 
